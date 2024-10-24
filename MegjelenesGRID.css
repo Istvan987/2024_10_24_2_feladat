@@ -3,4 +3,27 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: ;
+}   'me me fo be be'
+    'me me ft ba jo'
+    'ke os el el el'
+
+nav{
+    grid-area: me;
 }
+
+footer{
+    grid-area:ke ;
+}
+
+#baltartalom{
+    grid-area:ba ;
+}
+
+#jobbtartalom{
+    grid-area: jo;
+}
+
+#bejelentkezes{
+    grid-area: be;
+}
+
